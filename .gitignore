@@ -1,0 +1,19 @@
+# Julia
+*.cov
+*.jl.cov
+*.jl.*.cov
+*.mem
+
+# Local environments and caches
+.julia-instantiated
+.julia-depot/
+.venv/
+.cache/
+
+# Generated study outputs
+results/*
+!results/.gitkeep
+
+# OS/editor files
+.DS_Store
+*.swp

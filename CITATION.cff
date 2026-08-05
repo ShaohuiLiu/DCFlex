@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "DCFlex: Storage-compute co-optimization benchmarks for grid-interactive data centers"
+type: software
+authors:
+  - family-names: Liu
+    given-names: Shaohui
+  - family-names: Shin
+    given-names: Sungho
+  - family-names: Deka
+    given-names: Deepjyoti
+repository-code: "https://github.com/ShaohuiLiu/DCFlex"
+license: MIT
+version: 0.1.0
+date-released: 2026-08-05
+preferred-citation:
+  type: article
+  title: "Watts vs. Bytes: Turning Data Centers into Grid Assets via Storage-Compute Co-Optimization"
+  authors:
+    - family-names: Liu
+      given-names: Shaohui
+    - family-names: Shin
+      given-names: Sungho
+    - family-names: Deka
+      given-names: Deepjyoti
