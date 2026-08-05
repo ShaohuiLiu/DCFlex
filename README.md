@@ -93,12 +93,14 @@ CAISO/PJM observations enter through the empirical statistics and hourly profile
 parameters encoded by the case generator; see [`data/README.md`](data/README.md)
 for provenance and the input checksum.
 
-Gurobi is distributed as a Julia package dependency so version 13.0.0 is pinned
+Optimization solver: Gurobi is distributed as a Julia package dependency so version 13.0.0 is pinned
 by the manifest, but its license is external and cannot be distributed in this
 repository. HiGHS is fully open source and requires no separate license.
 
 ## Citation and license
 
-Citation metadata is provided in [`CITATION.cff`](CITATION.cff). The code is
+Please cite the preprint <https://arxiv.org/abs/2605.16190> . 
+
+Citation metadata for code is provided in [`CITATION.cff`](CITATION.cff). The code is
 released under the [MIT License](LICENSE). The processed benchmark inputs retain
 the terms of their original sources as described in `data/README.md`.
